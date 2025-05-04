@@ -1,0 +1,31 @@
+{
+  "name": "dj-webpage",
+  "version": "1.0.0",
+  "description": "A web application for mixing songs and simulating DJ functionalities.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "DJ",
+    "music",
+    "mixing",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.0",
+    "babel-preset-react": "^6.0.0",
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0"
+  }
+}
